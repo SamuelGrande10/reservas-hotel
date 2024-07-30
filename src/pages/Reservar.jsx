@@ -6,7 +6,6 @@ import { hotels } from "../mocks/hotels.json";
 const Reservar = () => {
   return (
     <>
-      <h2>Hoteles Disponibles</h2>
       <Hotels hotels={hotels} />
     </>
   );
