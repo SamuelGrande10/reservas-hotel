@@ -1,21 +1,24 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import "./App.css";
-import Navbar from "./components/Navbar";
+import "./components/Login.css";
+import InicioSesion from "./pages/InicioSesion";
+import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
-import Footer from "./components/Footer";
+import RecoverPassword from "./components/RecoverPassword";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div className="container mt-4">
-        <Routes>
-          <Route path="/" element={<Reservar />} />
-          <Route path="/reservar" element={<Reservar />} />
-        </Routes>
-      </div>
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<InicioSesion />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/reservar" element={<Reservar />} />
+        <Route path="/recuperarContrasena" element={<RecoverPassword />} />
+      </Routes>
+    </Router>
   );
 }
 
