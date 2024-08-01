@@ -18,7 +18,7 @@ const Hotels = ({ hotels }) => {
               numberrooms,
               url,
             }) => (
-              <div key={hotel_id} className="col-12 col-md-6 col-lg-4 mb-4">
+              <div key={hotel_id} className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="card h-100">
                   <img
                     src={photo1}
