@@ -1,0 +1,134 @@
+{
+  "continents": [
+    {
+      "continent_name": "Asia",
+      "countries": [
+        {
+          "country_name": "Thailand",
+          "country_isocode": "TH"
+        },
+        {
+          "country_name": "Hong Kong",
+          "country_isocode": "HK"
+        },
+        {
+          "country_name": "Macau",
+          "country_isocode": "MO"
+        },
+        {
+          "country_name": "China",
+          "country_isocode": "CN"
+        },
+        {
+          "country_name": "Japan",
+          "country_isocode": "JP"
+        },
+        {
+          "country_name": "India",
+          "country_isocode": "IN"
+        },
+        {
+          "country_name": "Taiwan",
+          "country_isocode": "TW"
+        }
+      ]
+    },
+    {
+      "continent_name": "Europe",
+      "countries": [
+        {
+          "country_name": "Ireland",
+          "country_isocode": "IE"
+        },
+        {
+          "country_name": "Spain",
+          "country_isocode": "ES"
+        },
+        {
+          "country_name": "United Kingdom",
+          "country_isocode": "GB"
+        },
+        {
+          "country_name": "France",
+          "country_isocode": "FR"
+        },
+        {
+          "country_name": "Italy",
+          "country_isocode": "IT"
+        },
+        {
+          "country_name": "Belgium",
+          "country_isocode": "BE"
+        },
+        {
+          "country_name": "Malta",
+          "country_isocode": "MT"
+        },
+        {
+          "country_name": "Finland",
+          "country_isocode": "FI"
+        },
+        {
+          "country_name": "Germany",
+          "country_isocode": "DE"
+        },
+        {
+          "country_name": "Bulgaria",
+          "country_isocode": "BG"
+        }
+      ]
+    },
+    {
+      "continent_name": "South America",
+      "countries": [
+        {
+          "country_name": "Chile",
+          "country_isocode": "CL"
+        },
+        {
+          "country_name": "Colombia",
+          "country_isocode": "CO"
+        },
+        {
+          "country_name": "Peru",
+          "country_isocode": "PE"
+        }
+      ]
+    },
+    {
+      "continent_name": "Pacific Ocean and Australia",
+      "countries": [
+        {
+          "country_name": "New Zealand",
+          "country_isocode": "NZ"
+        }
+      ]
+    },
+    {
+      "continent_name": "North America",
+      "countries": [
+        {
+          "country_name": "Mexico",
+          "country_isocode": "MX"
+        },
+        {
+          "country_name": "United States",
+          "country_isocode": "US"
+        }
+      ]
+    },
+    {
+      "continent_name": "Africa",
+      "countries": [
+        {
+          "country_name": "Egypt",
+          "country_isocode": "EG"
+        },
+        {
+          "country_name": "Kenya",
+          "country_isocode": "KE"
+        }
+      ]
+    }
+  ]
+}

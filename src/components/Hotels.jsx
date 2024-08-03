@@ -9,15 +9,7 @@ const Hotels = ({ hotels }) => {
           // eslint-disable-next-line react/prop-types
           .slice(0, 12)
           .map(
-            ({
-              hotel_id,
-              hotel_name,
-              photo1,
-              city,
-              country,
-              numberrooms,
-              url,
-            }) => (
+            ({ hotel_id, hotel_name, photo1, city, country, numberrooms }) => (
               <div key={hotel_id} className="col-12 col-md-6 col-lg-3 mb-4">
                 <div className="card h-100">
                   <img
@@ -32,10 +24,10 @@ const Hotels = ({ hotels }) => {
                     </p>
                     <p className="card-text">Habitaciones: {numberrooms}</p>
                     <a
-                      href={url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-custom mt-auto"
+                      style={{ backgroundColor: "#47978c" }}
                     >
                       Más información
                     </a>
