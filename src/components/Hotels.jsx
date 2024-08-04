@@ -1,4 +1,5 @@
 import "./Hotels.css";
+import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
 const Hotels = ({ hotels }) => {
@@ -23,14 +24,15 @@ const Hotels = ({ hotels }) => {
                       {city}, {country}
                     </p>
                     <p className="card-text">Habitaciones: {numberrooms}</p>
-                    <a
+                    <Link
+                      to={`/hotel/${hotel_id}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-custom mt-auto"
                       style={{ backgroundColor: "#47978c" }}
                     >
                       Más información
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
