@@ -39,151 +39,176 @@
           "room_id": 1,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/276671/pexels-photo-276671.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3144580/pexels-photo-3144580.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 23,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 24,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394711/pexels-photo-6394711.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 25,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1457845/pexels-photo-1457845.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -226,79 +251,92 @@
           "room_id": 1,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3659683/pexels-photo-3659683.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/210604/pexels-photo-210604.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3634741/pexels-photo-3634741.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -341,139 +379,162 @@
           "room_id": 1,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3634741/pexels-photo-3634741.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3144580/pexels-photo-3144580.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/25025606/pexels-photo-25025606/free-photo-of-hotel-cama-habitacion-moderno.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5461590/pexels-photo-5461590.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8092391/pexels-photo-8092391.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/12715595/pexels-photo-12715595.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/19799232/pexels-photo-19799232/free-photo-of-una-manana-tranquila.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5461604/pexels-photo-5461604.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7598115/pexels-photo-7598115.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14917460/pexels-photo-14917460.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/276671/pexels-photo-276671.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14025023/pexels-photo-14025023.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14025032/pexels-photo-14025032.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14025911/pexels-photo-14025911.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4493299/pexels-photo-4493299.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Suite",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5883732/pexels-photo-5883732.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5883728/pexels-photo-5883728.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5883720/pexels-photo-5883720.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7786785/pexels-photo-7786785.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14025037/pexels-photo-14025037.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/11234468/pexels-photo-11234468.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/19883620/pexels-photo-19883620/free-photo-of-hotel-habitacion-interior-antiguo.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 23,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/18801087/pexels-photo-18801087/free-photo-of-habitacion-lujo-brillante-espejo.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -516,85 +577,99 @@
           "room_id": 1,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/18703869/pexels-photo-18703869/free-photo-of-hotel-cama-habitacion-interior.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4887696/pexels-photo-4887696.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5774037/pexels-photo-5774037.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7786808/pexels-photo-7786808.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7786784/pexels-photo-7786784.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7368344/pexels-photo-7368344.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/11085646/pexels-photo-11085646.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/13914190/pexels-photo-13914190.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14022458/pexels-photo-14022458.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14021930/pexels-photo-14021930.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/14645130/pexels-photo-14645130.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/13871310/pexels-photo-13871310.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/18651505/pexels-photo-18651505/free-photo-of-hotel-interior-moderno-tele.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/18651506/pexels-photo-18651506/free-photo-of-hotel-cama-habitacion-limpiar.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -637,145 +712,169 @@
           "room_id": 1,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/15230252/pexels-photo-15230252/free-photo-of-cama-almohadas-cortinas-diseno-de-interiores.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/17948132/pexels-photo-17948132/free-photo-of-hotel-cama-habitacion-lujo.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/18801079/pexels-photo-18801079/free-photo-of-lujo-lampara-apartamento-sofa.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/19883382/pexels-photo-19883382/free-photo-of-escaleras-hotel-cama-habitacion.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/189293/pexels-photo-189293.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/27543255/pexels-photo-27543255/free-photo-of-hotel-cama-habitacion-lujo.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/27543245/pexels-photo-27543245/free-photo-of-hotel-cama-habitacion-casa.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/27543244/pexels-photo-27543244/free-photo-of-hotel-cama-habitacion-casa.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/27543236/pexels-photo-27543236/free-photo-of-hotel-cama-habitacion-casa.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3688261/pexels-photo-3688261.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/26752642/pexels-photo-26752642/free-photo-of-madera-luces-hotel-cama.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/20276961/pexels-photo-20276961/free-photo-of-habitacion-doble-hotel-londres-mowbray-court-hotel-centro-de-londres.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/276678/pexels-photo-276678.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3659681/pexels-photo-3659681.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2952663/pexels-photo-2952663.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2029663/pexels-photo-2029663.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/24807130/pexels-photo-24807130/free-photo-of-hotel-cama-mesa-ventanas.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6238614/pexels-photo-6238614.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3316922/pexels-photo-3316922.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 23,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6186819/pexels-photo-6186819.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 24,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480198/pexels-photo-6480198.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -818,133 +917,155 @@
           "room_id": 1,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6890398/pexels-photo-6890398.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480198/pexels-photo-6480198.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7533766/pexels-photo-7533766.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/2867761/pexels-photo-2867761.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6758770/pexels-photo-6758770.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6284232/pexels-photo-6284232.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3316918/pexels-photo-3316918.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782577/pexels-photo-6782577.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6758531/pexels-photo-6758531.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585749/pexels-photo-6585749.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6032425/pexels-photo-6032425.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5875843/pexels-photo-5875843.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585759/pexels-photo-6585759.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782574/pexels-photo-6782574.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6527066/pexels-photo-6527066.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3316923/pexels-photo-3316923.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3769117/pexels-photo-3769117.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4915547/pexels-photo-4915547.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6316054/pexels-photo-6316054.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6587902/pexels-photo-6587902.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585757/pexels-photo-6585757.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -987,85 +1108,99 @@
           "room_id": 1,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6588582/pexels-photo-6588582.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6186810/pexels-photo-6186810.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6315800/pexels-photo-6315800.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7060819/pexels-photo-7060819.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782473/pexels-photo-6782473.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7214473/pexels-photo-7214473.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7214471/pexels-photo-7214471.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4946767/pexels-photo-4946767.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782468/pexels-photo-6782468.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6970065/pexels-photo-6970065.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782578/pexels-photo-6782578.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6890413/pexels-photo-6890413.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6899347/pexels-photo-6899347.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -1108,145 +1243,169 @@
           "room_id": 1,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6899347/pexels-photo-6899347.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6444252/pexels-photo-6444252.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6444974/pexels-photo-6444974.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480201/pexels-photo-6480201.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6538895/pexels-photo-6538895.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480204/pexels-photo-6480204.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/5998049/pexels-photo-5998049.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6580214/pexels-photo-6580214.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585746/pexels-photo-6585746.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6580228/pexels-photo-6580228.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6186822/pexels-photo-6186822.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6588577/pexels-photo-6588577.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7045767/pexels-photo-7045767.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7061671/pexels-photo-7061671.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434593/pexels-photo-6434593.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/26654861/pexels-photo-26654861/free-photo-of-hotel-cama-habitacion-puerta.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/271739/pexels-photo-271739.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/4577673/pexels-photo-4577673.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6758528/pexels-photo-6758528.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585619/pexels-photo-6585619.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Suite",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6758532/pexels-photo-6758532.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585768/pexels-photo-6585768.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 23,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6587907/pexels-photo-6587907.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 24,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782439/pexels-photo-6782439.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -1289,145 +1448,169 @@
           "room_id": 1,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/1457845/pexels-photo-1457845.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585601/pexels-photo-6585601.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6198666/pexels-photo-6198666.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6444976/pexels-photo-6444976.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Suite",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434587/pexels-photo-6434587.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6538896/pexels-photo-6538896.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Standard Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6316057/pexels-photo-6316057.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6636253/pexels-photo-6636253.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6933761/pexels-photo-6933761.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6588581/pexels-photo-6588581.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585612/pexels-photo-6585612.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7045834/pexels-photo-7045834.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8135248/pexels-photo-8135248.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Suite",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394711/pexels-photo-6394711.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394713/pexels-photo-6394713.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7535012/pexels-photo-7535012.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7214466/pexels-photo-7214466.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Standard Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7746575/pexels-photo-7746575.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Suite",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7061675/pexels-photo-7061675.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Suite",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7746470/pexels-photo-7746470.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 21,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7614416/pexels-photo-7614416.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 22,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/19045887/pexels-photo-19045887/free-photo-of-hotel-tokio-habitacion.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 23,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8135526/pexels-photo-8135526.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 24,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6899448/pexels-photo-6899448.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -1470,91 +1653,106 @@
           "room_id": 1,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/3225561/pexels-photo-3225561.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6636249/pexels-photo-6636249.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6198656/pexels-photo-6198656.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Deluxe Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6238683/pexels-photo-6238683.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782341/pexels-photo-6782341.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6970069/pexels-photo-6970069.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6186829/pexels-photo-6186829.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585608/pexels-photo-6585608.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6587825/pexels-photo-6587825.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Family Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7545500/pexels-photo-7545500.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7545786/pexels-photo-7545786.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7546285/pexels-photo-7546285.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585597/pexels-photo-6585597.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6585602/pexels-photo-6585602.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6207820/pexels-photo-6207820.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -1597,49 +1795,57 @@
           "room_id": 1,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6180679/pexels-photo-6180679.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6444257/pexels-photo-6444257.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Family Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6444255/pexels-photo-6444255.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434586/pexels-photo-6434586.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Standard Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6538888/pexels-photo-6538888.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Suite",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6538893/pexels-photo-6538893.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Suite",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434580/pexels-photo-6434580.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Family Room",
           "room_capacity": 6,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434582/pexels-photo-6434582.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
@@ -1682,121 +1888,141 @@
           "room_id": 1,
           "room_type": "Deluxe Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480210/pexels-photo-6480210.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 2,
           "room_type": "Standard Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6527060/pexels-photo-6527060.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 3,
           "room_type": "Deluxe Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6480212/pexels-photo-6480212.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 4,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6580216/pexels-photo-6580216.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 5,
           "room_type": "Family Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6580218/pexels-photo-6580218.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 6,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394574/pexels-photo-6394574.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 7,
           "room_type": "Family Room",
           "room_capacity": 5,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394550/pexels-photo-6394550.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 8,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394571/pexels-photo-6394571.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 9,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6238613/pexels-photo-6238613.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 10,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6394651/pexels-photo-6394651.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 11,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6899433/pexels-photo-6899433.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 12,
           "room_type": "Standard Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6587906/pexels-photo-6587906.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 13,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6588578/pexels-photo-6588578.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 14,
           "room_type": "Deluxe Room",
           "room_capacity": 1,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6782570/pexels-photo-6782570.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 15,
           "room_type": "Standard Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8082235/pexels-photo-8082235.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 16,
           "room_type": "Family Room",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8092164/pexels-photo-8092164.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 17,
           "room_type": "Deluxe Room",
           "room_capacity": 2,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8089074/pexels-photo-8089074.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 18,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/8135504/pexels-photo-8135504.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 19,
           "room_type": "Deluxe Room",
           "room_capacity": 3,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/7746082/pexels-photo-7746082.jpeg?auto=compress&cs=tinysrgb&w=800"
         },
         {
           "room_id": 20,
           "room_type": "Suite",
           "room_capacity": 4,
-          "room_amenities": ["WiFi", "TV", "Air Conditioning"]
+          "room_amenities": ["WiFi", "TV", "Air Conditioning"],
+          "room_photo1": "https://images.pexels.com/photos/6434623/pexels-photo-6434623.jpeg?auto=compress&cs=tinysrgb&w=800"
         }
       ]
     },
