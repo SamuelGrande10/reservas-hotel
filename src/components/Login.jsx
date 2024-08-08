@@ -13,8 +13,8 @@ function Login() {
     const registeredPassword = localStorage.getItem("registeredPassword"); //obtiene la contra del localStorage
 
     if (username === registeredUser && password === registeredPassword) {
-      // Redirigir a la página principal (/reservar)
-      navigate("/reservar");
+      // Redirigir a la página principal (/home)
+      navigate("/home");
     } else {
       alert("Usuario o contraseña incorrectos");
     }
