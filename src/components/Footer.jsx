@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__section">
                     <h5 className="footer__title">Sobre Nosotros</h5>
-                    <p className="footer__text">Somos una empresa dedicada a...</p>
+                    <p className="footer__text">Somos una empresa dedicada a la reserva de hoteles</p>
                 </div>
                 <div className="footer__section">
                     <h5 className="footer__title">Enlaces Útiles</h5>
@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__section">
                     <h5 className="footer__title">Contacto</h5>
-                    <p className="footer__text">Email: info@empresa.com<br/>Teléfono: 123-456-7890</p>
+                    <p className="footer__text">Email: Traveluxe@gmail.com<br/>Teléfono: 123-456-7890</p>
                 </div>
             </div>
             <div className="footer__social">
