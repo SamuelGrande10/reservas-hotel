@@ -1,8 +1,25 @@
-import { Link } from "react-router-dom";
+import { useState } from "react"; //Hook para manejar el estado
+import { Link, useNavigate } from "react-router-dom"; //Hook para manejar la navegación
 
 import "./Login.css";
 
 const Register = () => {
+  const [username, setUsername] = useState(""); //Variable de estado para almacenar el nombre de usuario
+  const [password, setPassword] = useState(""); //Variable de estado para almacenar la contraseña
+  const navigate = useNavigate(); //Esto permite redirigir a otras rutas
+
+  const handleRegister = () => {
+    if (username && password) {
+      // Guardar en localStorage
+      localStorage.setItem("registeredUser", username); //Almacenar el usuario en el localStorage
+      localStorage.setItem("registeredPassword", password); //Almacenar la contraseña en el localStorage
+
+      // Redirigir al login
+      navigate("/");
+    } else {
+      alert("Por favor, completa todos los campos.");
+    }
+  };
   return (
     <div className="login d-flex justify-content-center align-items-center w-100">
       <section className="bg-opacity rounded w-50 text-light text-center p-3">
@@ -12,7 +29,8 @@ const Register = () => {
           className="form-control"
           type="text"
           placeholder="Nombre de usuario"
-          aria-label="Disabled input example"
+          value={username} //obtener el usuario
+          onChange={(e) => setUsername(e.target.value)} //actualizar el estado
         />
         <p className="mb-1 fw-bold">Correo:</p>
         <input
@@ -26,6 +44,8 @@ const Register = () => {
           type="password"
           className="form-control"
           placeholder="Contraseña"
+          value={password} //obtener la contraseña
+          onChange={(e) => setPassword(e.target.value)} //actualizar el estado
         />
         <p className="mb-1 fw-bold">Confirmar contraseña:</p>
         <input
@@ -43,7 +63,11 @@ const Register = () => {
         <section className="border-b">
           {/*Se agrego al Link la ruta de reservas solo para mostrar lo que hay en esa page */}
           <Link to="/" className="btn btn-link">
-            <button type="button" className="btn btn-primary">
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={handleRegister}
+            >
               Registrarse
             </button>
           </Link>
