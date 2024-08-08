@@ -1,8 +1,24 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 import "./Login.css";
 
 function Login() {
+  const [username, setUsername] = useState(""); //Variable de estado para almacenar el nombre de usuario
+  const [password, setPassword] = useState(""); //Variable de estado para almacenar la contraseña
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    const registeredUser = localStorage.getItem("registeredUser"); //obtiene el usuario del localStorage
+    const registeredPassword = localStorage.getItem("registeredPassword"); //obtiene la contra del localStorage
+
+    if (username === registeredUser && password === registeredPassword) {
+      // Redirigir a la página principal (/reservar)
+      navigate("/reservar");
+    } else {
+      alert("Usuario o contraseña incorrectos");
+    }
+  };
   return (
     <div className="login d-flex justify-content-center align-items-center w-100">
       <section className="bg-opacity rounded w-50 text-light text-center p-3">
@@ -12,20 +28,25 @@ function Login() {
           className="form-control"
           type="text"
           placeholder="Nombre de usuario"
-          aria-label="Disabled input example"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
         />
         <p className="mb-1 fw-bold">Contraseña:</p>
         <input
           type="password"
           className="form-control"
           placeholder="Contraseña"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         />
         <section className="border-b">
-          <Link to="/reservar" className="btn btn-link">
-            <button type="button" className="btn btn-primary">
-              Entrar
-            </button>
-          </Link>
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={handleLogin}
+          >
+            Entrar
+          </button>
           <Link
             to="/register"
             className="btn btn-link text-decoration-none text-light"
