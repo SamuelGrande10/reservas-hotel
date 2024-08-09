@@ -1,0 +1,19 @@
+.login {
+  height: 585px;
+  background-image: url("../assets/images/login.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.border-b {
+  border-bottom: 2px solid #70a9a1;
+}
+
+.border-t {
+  border-top: 2px solid #70a9a1;
+}
