@@ -9,7 +9,7 @@ import InicioSesion from "./pages/InicioSesion";
 import RecoverPassword from "./components/RecoverPassword";
 import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
-import Footer from "./components/footer"; 
+import Footer from "./components/Footer"; 
 import Contact from "./components/Contact"; 
 import Navbar from "./components/Navbar"; 
 
