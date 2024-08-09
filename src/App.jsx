@@ -9,6 +9,10 @@ import InicioSesion from "./pages/InicioSesion";
 import RecoverPassword from "./components/RecoverPassword";
 import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
+import Footer from "./components/footer"; 
+import Contact from "./components/Contact"; 
+import Navbar from "./components/Navbar"; 
+
 
 function App() {
   return (
@@ -20,7 +24,11 @@ function App() {
         <Route path="/recuperarContrasena" element={<RecoverPassword />} />
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
+        <Route path="/contact" element={<Contact />} /> 
+
       </Routes>
+
+     <Footer/>
     </Router>
   );
 }

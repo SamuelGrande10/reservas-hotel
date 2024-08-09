@@ -1,0 +1,149 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url('../assets/images/fondoContact.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; 
+  padding: 60px 20px; 
+}
+
+.contact-header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.contact-header p {
+  font-size: 18px;
+  color: #ddd; 
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  max-width: 300px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-info iframe {
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 36px;
+  }
+
+  .contact-header p {
+    font-size: 16px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-header h1 {
+    font-size: 28px;
+  }
+
+  .contact-header p {
+    font-size: 14px;
+  }
+
+  .contact-form label {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px;
+  }
+
+  .contact-info h2 {
+    font-size: 20px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+}
