@@ -10,7 +10,7 @@ import RecoverPassword from "./components/RecoverPassword";
 import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
 import Footer from "./components/Footer"; 
-import Contact from "./components/Contact"; // Importa tu página de Contacto
+import Contact from "./components/Contact"; 
 import Navbar from "./components/Navbar"; 
 
 

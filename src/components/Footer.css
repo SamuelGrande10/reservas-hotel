@@ -1,5 +1,5 @@
 .footer {
-    background-color: #343a40;
+    background-color:  #1f363d;
     color: white;
     padding: 20px 0;
 }
@@ -17,6 +17,18 @@
     flex: 1;
     margin: 10px;
     min-width: 200px;
+}
+
+
+@media (max-width: 768px) {
+    .footer__section {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer__container {
+        justify-content: center; 
+    }
 }
 
 .footer__title {
@@ -44,12 +56,31 @@
     background-color: #2d2d2d;
 }
 
+
 .footer__social-link {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
+    font-size: 20px; 
 }
 
 .footer__social-link:hover {
     color: #ddd;
+}
+
+
+@media (max-width: 576px) {
+    .footer__container {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__section {
+        margin: 20px 0; 
+    }
+
+    .footer__social {
+        padding: 20px 0; 
+    }
 }
