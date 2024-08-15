@@ -26,7 +26,6 @@ const Hotels = ({ hotels }) => {
                     <p className="card-text">Habitaciones: {numberrooms}</p>
                     <Link
                       to={`/hotel/${hotel_id}`}
-                      target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-custom mt-auto"
                       style={{ backgroundColor: "#47978c" }}
