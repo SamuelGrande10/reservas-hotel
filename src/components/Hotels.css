@@ -4,6 +4,9 @@
 }
 
 .btn-custom {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
   background-color: #70a9a1 !important;
   color: white !important;
 }
