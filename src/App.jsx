@@ -9,9 +9,9 @@ import InicioSesion from "./pages/InicioSesion";
 import RecoverPassword from "./components/RecoverPassword";
 import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
-import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Room from "./components/Room";
+import Perfil from "./components/Perfil";
 
 function App() {
   return (
@@ -25,9 +25,8 @@ function App() {
         <Route path="/hotel/:id" element={<Bedrooms />} />
         <Route path="/room/:id" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/perfil" element={<Perfil />} />
       </Routes>
-
-      <Footer />
     </Router>
   );
 }

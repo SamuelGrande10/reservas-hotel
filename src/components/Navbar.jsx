@@ -45,7 +45,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Perfil">
+              <a className="nav-link" href="/perfil">
                 Perfil <i className="bi bi-person-circle"></i>
               </a>
             </li>
