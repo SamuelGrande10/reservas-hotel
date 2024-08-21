@@ -14,6 +14,7 @@ const Navbar = () => {
             className=""
             style={{ width: "50px", height: "50px" }}
           />
+          <span>Traveluxe</span>
         </a>
         <button
           className="navbar-toggler"
@@ -34,18 +35,18 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Habitaciones
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/reservar">
                 Reservar
               </a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="/Contact">
+              <a className="nav-link" href="/Contact">
                 Contacto
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Perfil">
+                Perfil <i className="bi bi-person-circle"></i>
               </a>
             </li>
           </ul>
