@@ -11,7 +11,7 @@ import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Perfil from "./components/Perfil";
+import Room from "./components/Room";
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
         <Route path="/recuperarContrasena" element={<RecoverPassword />} />
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
+        <Route path="/room/:id" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/perfil" element={<Perfil />} />
       </Routes>
 
       <Footer />
