@@ -71,6 +71,14 @@ const Register = () => {
               Registrarse
             </button>
           </Link>
+          <Link
+            to="/login"
+            className="btn btn-link text-decoration-none text-light"
+          >
+            <button type="button" className="btn btn-primary">
+              Regresar
+            </button>
+          </Link>
         </section>
       </section>
     </div>
