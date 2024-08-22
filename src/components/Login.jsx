@@ -14,7 +14,7 @@ function Login() {
 
     if (username === registeredUser && password === registeredPassword) {
       // Redirigir a la página principal (/home)
-      navigate("/home");
+      navigate("/");
     } else {
       alert("Usuario o contraseña incorrectos");
     }

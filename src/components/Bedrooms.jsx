@@ -48,7 +48,7 @@ const Bedrooms = () => {
                     <img
                       src={room_photo1}
                       alt="bedroom"
-                      className="img-fluid border border-secondary room-image"
+                      className="img-fluid border border-secondary room-image-list"
                       onClick={() => handleShow(room_photo1)}
                     />
                     <h5 className="card-title mt-3">
@@ -70,8 +70,8 @@ const Bedrooms = () => {
                       ))}
                     </ul>
                     <Link
-                      to={`/room/${room_id}`}
-                      className="btn btn-custom mt-3"
+                      to={`/hotel/${id}/room/${room_id}`}
+                      className="btn btn-custom-bedrooms mt-3"
                     >
                       Ver Detalles
                     </Link>

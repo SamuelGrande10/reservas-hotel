@@ -7,7 +7,7 @@
   border: 2px solid #40798c;
 }
 
-.room-image {
+.room-image-list {
   height: 200px; /* Ajusta la altura según lo necesites */
   object-fit: cover;
   cursor: pointer;
@@ -35,4 +35,16 @@
   margin-right: 10px;
   color: #40798c;
   font-size: 20px;
+}
+
+.btn-custom-bedrooms {
+  display: block;
+  padding: 10px 20px;
+  background-color: #40798c !important;
+  color: white !important;
+}
+
+.btn-custom-bedrooms:hover {
+  background-color: #376879 !important;
+  color: white !important;
 }

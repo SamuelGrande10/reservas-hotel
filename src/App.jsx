@@ -17,13 +17,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/home" element={<Home />} />
-        <Route exact path="/" element={<InicioSesion />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/login" element={<InicioSesion />} />
         <Route path="/register" element={<Register />} />
         <Route path="/recuperarContrasena" element={<RecoverPassword />} />
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
-        <Route path="/room/:id" element={<Room />} />
+        <Route path="/hotel/:id/room/:id_room" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/perfil" element={<Perfil />} />
       </Routes>

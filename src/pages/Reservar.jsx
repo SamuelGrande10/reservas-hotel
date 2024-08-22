@@ -4,6 +4,7 @@ import Hotels from "../components/Hotels";
 import { hotels } from "../data/hotels.json";
 import { continents } from "../data/continents.json";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Reservar = () => {
   const [filters, setFilters] = useState({
@@ -64,7 +65,7 @@ const Reservar = () => {
     <>
       <Navbar />
       <div className="container mt-4">
-        <h2>Hoteles Disponibles</h2>
+        <h2 className="py-3">Hoteles Disponibles</h2>
         <div className="row mb-4">
           <div className="col-12 col-md-6 mb-3">
             <input
@@ -83,7 +84,7 @@ const Reservar = () => {
               onChange={handleChange}
               className="form-control"
             >
-              <option value="">Continente</option>
+              <option value="">Región</option>
               {continents.map((continent, index) => (
                 <option key={index} value={continent.continent_name}>
                   {continent.continent_name}
@@ -125,6 +126,7 @@ const Reservar = () => {
         </div>
         <Hotels hotels={filteredHotels} />
       </div>
+      <Footer />
     </>
   );
 };

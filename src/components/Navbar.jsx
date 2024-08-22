@@ -7,7 +7,7 @@ const Navbar = () => {
       style={{ backgroundColor: "#40798c" }}
     >
       <div className="container">
-        <a className="navbar-brand" href="/home">
+        <a className="navbar-brand" href="/">
           <img
             src={logo}
             alt="Logo"
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/home">
+              <a className="nav-link active" aria-current="page" href="/">
                 Inicio
               </a>
             </li>
@@ -40,8 +40,13 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Contact">
+              <a className="nav-link" href="/contact">
                 Contacto
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/login">
+                Iniciar Sesión
               </a>
             </li>
             <li className="nav-item">

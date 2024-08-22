@@ -3,15 +3,14 @@
   object-fit: cover;
 }
 
-.btn-custom {
+.btn-custom-hotels {
   display: block;
   padding: 10px 20px;
-  margin: 0 auto;
   background-color: #70a9a1 !important;
   color: white !important;
 }
 
-.btn-custom:hover {
+.btn-custom-hotels:hover {
   background-color: #5e9184 !important;
   color: white !important;
 }
