@@ -1,0 +1,130 @@
+
+.fa-umbrella-beach {
+    color: #70a9a1;
+}
+.bienvenida {
+    letter-spacing: 5px;
+}
+
+.galeria {
+    background-color: #1f363d;
+}
+
+.galeria img {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #484848;
+    opacity: 0.7;
+}
+
+.galeria img:hover {
+    border: 1px solid #cfe0c3;
+    opacity: 1;
+}
+
+/* Video de fondo */
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.video-background .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.video-background .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.video-background .content {
+    position: relative;
+    z-index: 2; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente detrás del texto */
+    border-radius: 10px; /* Bordes redondeados para un toque más suave */
+    display: inline-block;
+}
+
+.video-background .content h1 {
+    margin-bottom: 1rem;
+}
+
+.video-background .content p {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.video-background .content .btn-reservar {
+    background-color: #70a9a1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+}
+
+.video-background .content .btn-reservar:hover {
+    background-color: #79ccc1;
+}
+
+/* Comentarios */
+.customer-reviews .card {
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.customer-reviews .card-body {
+    padding: 1.5rem;
+}
+
+.customer-reviews blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.customer-reviews .blockquote-footer {
+    font-size: 0.875rem; 
+    color: #6c757d; 
+}
+
+/* Quitar texto en pantallas pequeñas */
+@media (max-width: 600px) {
+    .video-background .content .quitar-parrafo {
+        display: none;
+    }
+    .video-background .content p {
+        font-size: 14px; 
+    }
+    .galeria img {
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .galeria img {
+        margin: 15px 0;
+    }
+}
