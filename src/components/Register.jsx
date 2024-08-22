@@ -15,7 +15,7 @@ const Register = () => {
       localStorage.setItem("registeredPassword", password); //Almacenar la contraseña en el localStorage
 
       // Redirigir al login
-      navigate("/");
+      navigate("/login");
     } else {
       alert("Por favor, completa todos los campos.");
     }
@@ -62,7 +62,7 @@ const Register = () => {
         />
         <section className="border-b">
           {/*Se agrego al Link la ruta de reservas solo para mostrar lo que hay en esa page */}
-          <Link to="/" className="btn btn-link">
+          <Link to="/login" className="btn btn-link">
             <button
               type="button"
               className="btn btn-primary"

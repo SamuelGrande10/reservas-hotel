@@ -1,0 +1,21 @@
+.room-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.btn-custom-room {
+  background-color: #40798c;
+  color: white;
+  width: 100%;
+}
+
+.btn-custom-room:hover {
+  background-color: #376879 !important;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
