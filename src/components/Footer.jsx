@@ -15,13 +15,13 @@ const Footer = () => {
           <h5 className="footer__title">Enlaces Útiles</h5>
           <ul className="footer__list">
             <li className="footer__item">
-              <Link to="/home" className="footer__link">
+              <Link to="/" className="footer__link">
                 Inicio
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="/services" className="footer__link">
-                Servicios
+              <Link to="/login" className="footer__link">
+                Iniciar Sesión
               </Link>
             </li>
             <li className="footer__item">
