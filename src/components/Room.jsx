@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { hotels } from "../data/hotels.json";
@@ -81,12 +81,14 @@ const Room = () => {
                   required
                 />
               </div>
-              <button
-                type="submit"
-                className="btn btn-custom-room btn-block mt-3 font-weight-bold"
-              >
-                Reservar
-              </button>
+              <Link to="/pago" className="text-decoration-none text-light">
+                <button
+                  type="submit"
+                  className="btn btn-custom-room btn-block mt-3 font-weight-bold"
+                >
+                  Reservar
+                </button>
+              </Link>
             </form>
 
             <button
