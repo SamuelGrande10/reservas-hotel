@@ -12,6 +12,7 @@ import Reservar from "./pages/Reservar";
 import Contact from "./components/Contact";
 import Room from "./components/Room";
 import Perfil from "./components/Perfil";
+import Pago from "./components/Pago";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/hotel/:id/room/:id_room" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/perfil" element={<Perfil />} />
+        <Route path="/pago" element={<Pago />} />
       </Routes>
     </Router>
   );
