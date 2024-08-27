@@ -12,6 +12,7 @@ import Reservar from "./pages/Reservar";
 import Footer from "./components/Footer"; 
 import Contact from "./components/Contact"; 
 import Navbar from "./components/Navbar"; 
+import FAQ from "./components/FAQ";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
         <Route path="/contact" element={<Contact />} /> 
+        <Route path="/FAQ" element={<FAQ/>} />
       </Routes>
      <Footer/>
     </Router>
