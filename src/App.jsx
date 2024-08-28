@@ -9,6 +9,7 @@ import InicioSesion from "./pages/InicioSesion";
 import RecoverPassword from "./components/RecoverPassword";
 import Register from "./components/Register";
 import Reservar from "./pages/Reservar";
+import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Room from "./components/Room";
 import Perfil from "./components/Perfil";
@@ -24,6 +25,8 @@ function App() {
         <Route path="/recuperarContrasena" element={<RecoverPassword />} />
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
+        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/FAQ" element={<FAQ/>} />
         <Route path="/hotel/:id/room/:id_room" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/perfil" element={<Perfil />} />

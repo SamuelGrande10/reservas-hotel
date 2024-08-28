@@ -1,15 +1,18 @@
 import "./Contact.css";
 import Navbar from "../components/Navbar";
+import Footer from "./Footer";
+
 
 const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="contact-container">
-        <div className="contact-header">
-          <h1>CONTÁCTANOS</h1>
-          <p>Somos una empresa de reservas de hoteles</p>
+
+      <div className="contact-header">
+        <h1>CONTÁCTANOS</h1>
+        <p>Somos una empresa de reservas de hoteles</p>
         </div>
+      <div className="contact-container">
         <div className="contact-content">
           <form className="contact-form">
             <label>
@@ -64,6 +67,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
