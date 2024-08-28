@@ -46,10 +46,10 @@ const Bedrooms = () => {
                 <div className="card h-100 card-style">
                   <div className="card-body">
                     <img
-                      src={room_photo1}
-                      alt="bedroom"
+                      src={room_photo1 || 'https://img.freepik.com/foto-gratis/pequeno-interior-habitacion-hotel-cama-doble-bano_1262-12489.jpg?'}
                       className="img-fluid border border-secondary room-image-list"
                       onClick={() => handleShow(room_photo1)}
+                      alt={`Foto de la ${room_type}`}
                     />
                     <h5 className="card-title mt-3">
                       {" "}
@@ -101,7 +101,7 @@ const Bedrooms = () => {
               </div>
               <div className="modal-body">
                 <img
-                  src={selectedPhoto}
+                  src={selectedPhoto || 'https://img.freepik.com/foto-gratis/pequeno-interior-habitacion-hotel-cama-doble-bano_1262-12489.jpg?ga=GA1.1.1231101684.1723758522&semt=ais_hybrid'}
                   alt="room expanded"
                   className="img-fluid"
                 />
