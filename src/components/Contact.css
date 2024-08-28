@@ -1,18 +1,24 @@
 .contact-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.contact-header-wrapper {
+  width: 100%; 
+  margin: 0; 
+  padding: 0; 
 }
 
 .contact-header {
-  text-align: center;
-  margin-bottom: 40px;
+  width: 100%; 
+  padding: 60px 20px; 
   background-image: url('../assets/images/fondoContact.jpeg'); 
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  color: white; 
-  padding: 60px 20px; 
+  color: white;
+  text-align: center;
 }
 
 .contact-header h1 {
