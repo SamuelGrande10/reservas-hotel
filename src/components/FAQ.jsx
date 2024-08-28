@@ -81,6 +81,7 @@ const FAQContainer = styled.div`
 `;
 
 const FAQBackground = styled.div`
+  position: relative;
   width: 100%;
   min-height: 100vh;
   background-image: url(${backgroundImage});
