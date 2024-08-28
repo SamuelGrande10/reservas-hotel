@@ -14,7 +14,7 @@ function Login() {
 
     if (username === registeredUser && password === registeredPassword) {
       // Redirigir a la página principal (/home)
-      navigate("/home");
+      navigate("/");
     } else {
       alert("Usuario o contraseña incorrectos");
     }
@@ -39,7 +39,7 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <section className="border-b">
+        <section className="border-b mt-2">
           <button
             type="button"
             className="btn btn-primary"
@@ -64,6 +64,11 @@ function Login() {
             ¿Olvidaste tu contraseña?
           </Link>
         </p>
+        <Link to="/" className="btn btn-link text-decoration-none text-light">
+          <button type="button" className="btn btn-primary">
+            Regresar
+          </button>
+        </Link>
       </section>
     </div>
   );

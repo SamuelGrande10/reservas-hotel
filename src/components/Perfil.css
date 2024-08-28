@@ -1,0 +1,22 @@
+.FondoPerfil {
+  height: 300px;
+  background-image: url("../assets//images/fondoPerfil.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fotoPerfil {
+  width: 125px;
+  height: 125px;
+}
+
+.infoPerfil {
+  position: relative;
+  bottom: 90px;
+}
+
+.img-hotel {
+  width: 100px;
+  height: 100px;
+}

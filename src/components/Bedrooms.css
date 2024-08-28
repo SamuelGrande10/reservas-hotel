@@ -1,37 +1,50 @@
-
 .text-style {
-    color: #1f363d;
+  color: #1f363d;
 }
 
 .card-style {
-    background-color: #cfe0c3;
-    border: 2px solid #40798c;
+  background-color: #cfe0c3;
+  border: 2px solid #40798c;
 }
 
-img {
-    cursor: pointer;
+.room-image-list {
+  height: 200px; /* Ajusta la altura según lo necesites */
+  object-fit: cover;
+  cursor: pointer;
 }
 
 .badge-bg {
-    background-color: #40798c;
+  background-color: #40798c;
 }
 
 .amenities-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .amenity-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
-    font-size: 1.1em;
-    color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #333;
 }
 
 .amenity-icon {
-    margin-right: 10px;
-    color: #40798c;
-    font-size: 20px;
+  margin-right: 10px;
+  color: #40798c;
+  font-size: 20px;
+}
+
+.btn-custom-bedrooms {
+  display: block;
+  padding: 10px 20px;
+  background-color: #40798c !important;
+  color: white !important;
+}
+
+.btn-custom-bedrooms:hover {
+  background-color: #376879 !important;
+  color: white !important;
 }
