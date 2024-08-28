@@ -1,0 +1,11 @@
+.border-secundario {
+  border: 3px solid #40798c;
+}
+
+.captcha {
+  background-color: #eee;
+}
+
+.imgCaptcha {
+  width: 80px;
+}
