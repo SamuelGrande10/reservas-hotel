@@ -1,63 +1,66 @@
-import React, {useState} from 'react';
-import styled from 'styled-components';
-import{StyledNavLink} from './StyledNavLink';
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import styled from "styled-components";
+import { StyledNavLink } from "./StyledNavLink";
 import Navbar from "../components/Navbar";
-import Footer from "./Footer"
-import backgroundImage from '../assets/images/bahamas-atlantis.jpg';
-
+import Footer from "./Footer";
+import backgroundImage from "../assets/images/bahamas-atlantis.jpg";
 
 const FAQ = () => {
+  const [openIndex, setOpenIndex] = useState(null);
 
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
-    const[openIndex, setOpenIndex] = useState(null);
+  const faqs = [
+    {
+      question: "¿Qué es Traveluxe?",
+      answer:
+        "Traveluxe es una empresa dedicada a la reserva de hoteles que ofrece una plataforma fácil de usar para encontrar, comparar y reservar alojamientos en destinos de todo el mundo.",
+    },
+    {
+      question: "¿Qué métodos de pago aceptan?",
+      answer:
+        "Traveluxe acepta una variedad de métodos de pago, incluyendo tarjetas de crédito, tarjetas de débito y pagos en línea a través de plataformas seguras como PayPal..",
+    },
+    {
+      question: "¿Qué necesito para comenzar?",
+      answer:
+        "Para comenzar con Traveluxe, solo necesitas crear una cuenta en nuestra plataforma, donde podrás ingresar tus datos de contacto. Una vez registrado, puedes buscar hoteles, comparar opciones y realizar reservas.",
+    },
+    {
+      question: "¿Cuál es el precio de usar Traveluxe?",
+      answer:
+        "Los precios de los hoteles varían según el alojamiento y la temporada, y se muestran claramente durante el proceso de reserva..",
+    },
+    {
+      question: "¿Cómo funciona Traveluxe?",
+      answer:
+        "Traveluxe funciona permitiendo a los usuarios buscar hoteles en diferentes destinos, filtrar resultados según sus preferencias y comparar precios. Una vez que encuentras un hotel que te gusta, puedes reservarlo directamente a través de nuestra plataforma. Nos encargamos de la coordinación con el hotel para asegurar que tu reserva sea confirmada.",
+    },
+  ];
 
-    const toggleFAQ = (index) =>{
-        setOpenIndex(openIndex === index ? null : index)
-    };
-
-    const faqs = [
-        {
-            question: '¿Qué es Traveluxe?',
-            answer: 'Traveluxe es una empresa dedicada a la reserva de hoteles que ofrece una plataforma fácil de usar para encontrar, comparar y reservar alojamientos en destinos de todo el mundo.',
-          },
-          {
-            question: '¿Qué métodos de pago aceptan?',
-            answer: 'Traveluxe acepta una variedad de métodos de pago, incluyendo tarjetas de crédito, tarjetas de débito y pagos en línea a través de plataformas seguras como PayPal..',
-          },
-          {
-            question: '¿Qué necesito para comenzar?',
-            answer: 'Para comenzar con Traveluxe, solo necesitas crear una cuenta en nuestra plataforma, donde podrás ingresar tus datos de contacto. Una vez registrado, puedes buscar hoteles, comparar opciones y realizar reservas.',
-          },
-          {
-            question: '¿Cuál es el precio de usar Traveluxe?',
-            answer: 'Los precios de los hoteles varían según el alojamiento y la temporada, y se muestran claramente durante el proceso de reserva..',
-          },
-          {
-            question: '¿Cómo funciona Traveluxe?',
-            answer: 'Traveluxe funciona permitiendo a los usuarios buscar hoteles en diferentes destinos, filtrar resultados según sus preferencias y comparar precios. Una vez que encuentras un hotel que te gusta, puedes reservarlo directamente a través de nuestra plataforma. Nos encargamos de la coordinación con el hotel para asegurar que tu reserva sea confirmada.',
-          },
-    ];
-
-    return (
-      <>
-      <Navbar/>
+  return (
+    <>
+      <Navbar />
       <FAQBackground>
         <FAQContainer>
-            <FAQTitle>Preguntas frecuentes sobre Traveluxe</FAQTitle>
-            {faqs.map((faq,index) => (
-                <FAQItem key={index} onClick={() => toggleFAQ(index)}>
-                    <Question>{faq.question}</Question>
-                    {openIndex === index && <Answer>{faq.answer}</Answer>}
-                </FAQItem>
-            ))}
-            <MoreQuestions>
-                <StyledNavLink to="/contact">¿Aun tienes dudas?</StyledNavLink>
-            </MoreQuestions>
+          <FAQTitle>Preguntas frecuentes sobre Traveluxe</FAQTitle>
+          {faqs.map((faq, index) => (
+            <FAQItem key={index} onClick={() => toggleFAQ(index)}>
+              <Question>{faq.question}</Question>
+              {openIndex === index && <Answer>{faq.answer}</Answer>}
+            </FAQItem>
+          ))}
+          <MoreQuestions>
+            <StyledNavLink to="/contact">¿Aun tienes dudas?</StyledNavLink>
+          </MoreQuestions>
         </FAQContainer>
       </FAQBackground>
-      <Footer/>
-     </>
-    );
+      <Footer />
+    </>
+  );
 };
 export default FAQ;
 
@@ -68,7 +71,7 @@ const FAQContainer = styled.div`
   max-width: 90%; /* Adaptable a diferentes tamaños de pantalla */
   margin: 40px auto; /* Espacio superior e inferior */
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
 
   @media (min-width: 768px) {
