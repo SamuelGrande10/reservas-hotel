@@ -1,35 +1,47 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 import "./Login.css";
 
 function Login() {
-  const [username, setUsername] = useState(""); //Variable de estado para almacenar el nombre de usuario
-  const [password, setPassword] = useState(""); //Variable de estado para almacenar la contraseña
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    const registeredUser = localStorage.getItem("registeredUser"); //obtiene el usuario del localStorage
-    const registeredPassword = localStorage.getItem("registeredPassword"); //obtiene la contra del localStorage
-
-    if (username === registeredUser && password === registeredPassword) {
-      // Redirigir a la página principal (/home)
-      navigate("/");
+    if (email && password) {
+      axios
+        .post("http://localhost:5000/api/users/login", {
+          email,
+          password,
+        })
+        .then((response) => {
+          const userData = response.data; // Aquí estará el id del usuario
+          localStorage.setItem("userId", userData.id); // Guardar el id en localStorage
+          // Redirigir a la página principal ("/")
+          navigate("/perfil");
+        })
+        .catch((error) => {
+          console.error("Error al iniciar sesión:", error);
+          alert("Usuario o contraseña incorrectos");
+        });
     } else {
-      alert("Usuario o contraseña incorrectos");
+      alert("Por favor, completa todos los campos.");
     }
   };
+
   return (
     <div className="login d-flex justify-content-center align-items-center w-100">
       <section className="bg-opacity rounded w-50 text-light text-center p-3">
         <h3 className="border-b">Iniciar sesión</h3>
-        <p className="border-t mb-1 fw-bold">Usuario:</p>
+        <p className="border-t mb-1 fw-bold">Correo:</p>
         <input
           className="form-control"
           type="text"
-          placeholder="Nombre de usuario"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Correo electrónico"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
         />
         <p className="mb-1 fw-bold">Contraseña:</p>
         <input
