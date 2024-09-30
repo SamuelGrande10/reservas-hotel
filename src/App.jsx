@@ -14,6 +14,7 @@ import Contact from "./components/Contact";
 import Room from "./components/Room";
 import Perfil from "./components/Perfil";
 import Pago from "./components/Pago";
+import Pictures from "./components/Pictures";
 
 function App() {
   return (
@@ -25,12 +26,13 @@ function App() {
         <Route path="/recuperarContrasena" element={<RecoverPassword />} />
         <Route exact path="/reservar" element={<Reservar />} />
         <Route path="/hotel/:id" element={<Bedrooms />} />
-        <Route path="/contact" element={<Contact />} /> 
-        <Route path="/FAQ" element={<FAQ/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/FAQ" element={<FAQ />} />
         <Route path="/hotel/:id/room/:id_room" element={<Room />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/pago" element={<Pago />} />
+        <Route path="/pictures" element={<Pictures />} />
       </Routes>
     </Router>
   );
