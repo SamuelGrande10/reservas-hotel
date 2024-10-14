@@ -15,6 +15,7 @@ import Room from "./components/Room";
 import Perfil from "./components/Perfil";
 import Pago from "./components/Pago";
 import Pictures from "./components/Pictures";
+import ConfirmacionReserva from "./components/ConfirmacionReserva";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/pago" element={<Pago />} />
         <Route path="/pictures" element={<Pictures />} />
+        <Route path="/confirmacion-reserva" element={<ConfirmacionReserva />} />
       </Routes>
     </Router>
   );

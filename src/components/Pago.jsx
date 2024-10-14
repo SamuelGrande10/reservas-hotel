@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./Pago.css";
 import Captcha from "../assets/images/captcha.png";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Pago = () => {
   const [mesSeleccionado, setMesSeleccionado] = useState("");
@@ -31,7 +33,8 @@ const Pago = () => {
 
   return (
     <>
-      <div className="m-auto mb-5">
+      <Navbar/>
+      <div className="m-auto mb-5 container w-50">
         <h3 className="mb-3 mt-3">Detalles pago de reserva</h3>
         <section className="border-secundario rounded p-3">
           <div className="d-flex justify-content-between align-items-center border-bottom ps-md-3 pe-md-3">
@@ -142,6 +145,7 @@ const Pago = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
