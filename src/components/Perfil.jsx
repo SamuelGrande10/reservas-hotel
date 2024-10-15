@@ -23,6 +23,7 @@ const Perfil = () => {
     fondo_perfil: "",
   });
 
+  const [backupProfile, setBackupProfile] = useState(null); // Copia de respaldo
   const [isEditing, setIsEditing] = useState(false);
   const [isFollowing, setIsFollowing] = useState(false);
 
@@ -57,7 +58,6 @@ const Perfil = () => {
   };
 
   //Tratando de agregar la imagen al perfil
-  //probando para ambas imagenes###
   const handleSave = () => {
     const userId = localStorage.getItem("userId");
 
@@ -120,7 +120,19 @@ const Perfil = () => {
       });
     }
   };
-  //##############################
+
+  // Para entrar en modo edición y hacer copia de respaldo del perfil
+  const handleEdit = () => {
+    setBackupProfile({ ...userProfile }); // Hacer una copia del perfil actual
+    setIsEditing(true);
+  };
+
+  // Cancelar la edición y restaurar la copia de respaldo
+  const handleCancel = () => {
+    setUserProfile(backupProfile); // Restaurar la copia del perfil
+    setIsEditing(false);
+  };
+
   //Manejar el cambio de estado de seguimiento
   const handleFollowToggle = () => {
     setIsFollowing((prev) => !prev);
@@ -135,13 +147,6 @@ const Perfil = () => {
       <Navbar />
       <div>
         <section className="FondoPerfil">
-          {/* {userProfile.fondo_perfil && (
-            <img
-              src={`http://localhost:5000/${userProfile.fondo_perfil}`}
-              alt="Fondo de perfil"
-              className="FondoPerfil profile-picture w-100"
-            />
-          )} */}
           <img
             src={
               userProfile.fondo_perfil
@@ -154,15 +159,6 @@ const Perfil = () => {
         </section>
         <div className="infoPerfil d-md-flex justify-content-around align-items-center p-3">
           <div className="col-12 col-md-6">
-            {/* Mostrar la imagen de perfil */}
-            {/* {userProfile.foto_perfil && (
-              <img
-                src={`http://localhost:5000/${userProfile.foto_perfil}`}
-                alt="Foto de perfil"
-                className="profile-picture"
-                style={{ width: "150px", height: "150px", borderRadius: "50%" }}
-              />
-            )} */}
             <img
               src={
                 userProfile.foto_perfil
@@ -180,25 +176,32 @@ const Perfil = () => {
                   <p className="fw-bold fs-3">
                     {userProfile.nombre} {userProfile.apellido}
                   </p>
-                  <p>{userProfile.biografia}</p>
                   <p>
-                    Vive en{" "}
+                    <i className="bi bi-file-person-fill me-1"></i>
+                    Sobre mi:{" "}
+                    <span className="fw-bold">{userProfile.biografia}</span>
+                  </p>
+                  <p>
+                    <i className="bi bi-geo-alt-fill me-1"></i>
+                    Vive en:{" "}
                     <span className="fw-bold">{userProfile.direccion}</span>
                   </p>
                   <p>
+                    <i className="bi bi-phone-fill me-1"></i>
                     Teléfono:{" "}
                     <span className="fw-bold">{userProfile.telefono}</span>
                   </p>
-                  <button
-                    className="btn btn-secondary"
-                    onClick={() => setIsEditing(true)}
-                  >
+                  <p>
+                    <i className="bi bi-person-lines-fill me-1"></i>
+                    Más de <span className="fw-bold">400</span> contactos
+                  </p>
+                  <button className="btn btn-success" onClick={handleEdit}>
                     Editar perfil
                   </button>
                 </>
               ) : (
                 <>
-                  <p className="mb-1 fw-bold">Nombre:</p>
+                  <p className="mb-1 fw-bold">Nombre(s):</p>
                   <input
                     type="text"
                     name="nombre"
@@ -207,7 +210,7 @@ const Perfil = () => {
                     placeholder="Nombre"
                     className="form-control mb-2"
                   />
-                  <p className="mb-1 fw-bold">Apellido:</p>
+                  <p className="mb-1 fw-bold">Apellido(s):</p>
                   <input
                     type="text"
                     name="apellido"
@@ -246,9 +249,9 @@ const Perfil = () => {
                   {/* para agregar img al perfil */}
                   <div className="container mb-2">
                     <div className="card p-3">
-                      <div className="row">
+                      <div className="">
                         <div className="col-9">
-                          <p className="m-0 p-0">Foto de perfil</p>
+                          <p className="m-0 p-0 fw-bold">Foto de perfil</p>
                           <input
                             id="fileInput"
                             name="foto_perfil"
@@ -256,7 +259,7 @@ const Perfil = () => {
                             className="form-control"
                             type="file"
                           />
-                          <p className="m-0 p-0">Fondo de perfil</p>
+                          <p className="m-0 p-0 fw-bold">Fondo de perfil</p>
                           <input
                             id="fileInput"
                             name="fondo_perfil"
@@ -272,10 +275,7 @@ const Perfil = () => {
                   <button className="btn btn-primary me-2" onClick={handleSave}>
                     Guardar
                   </button>
-                  <button
-                    className="btn btn-secondary"
-                    onClick={() => setIsEditing(false)}
-                  >
+                  <button className="btn btn-secondary" onClick={handleCancel}>
                     Cancelar
                   </button>
                 </>
@@ -284,7 +284,7 @@ const Perfil = () => {
             <div className="text-center mt-3">
               <button
                 className={`btn ${
-                  isFollowing ? "btn-success" : "btn-primary"
+                  isFollowing ? "btn-info" : "btn-primary"
                 } me-2`}
                 onClick={handleFollowToggle}
               >
@@ -326,14 +326,22 @@ const Perfil = () => {
       </div>
 
       {/* ir a las imagenes compartidas */}
-      <Link
-        to="/pictures"
-        className="btn btn-link text-decoration-none text-light"
-      >
-        <button type="button" className="btn btn-primary">
-          Ver imágenes
-        </button>
-      </Link>
+      <div className="m-auto w-50 shadow p-3 mb-5 bg-primary rounded bg-opacity-25">
+        <section className="text-center">
+          <h3>
+            Te gustaría compartir fotografías de tu diversión con{" "}
+            <span className="text-primary">Traveluxe</span>
+          </h3>
+          <Link
+            to="/pictures"
+            className="btn btn-link text-decoration-none text-light"
+          >
+            <button type="button" className="btn btn-primary">
+              Compartir
+            </button>
+          </Link>
+        </section>
+      </div>
 
       <Footer />
     </>

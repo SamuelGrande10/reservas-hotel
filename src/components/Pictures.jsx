@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useRef } from "react";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -7,6 +8,7 @@ const Pictures = () => {
   const [file, setFile] = useState(null);
   const [imageList, setImageList] = useState([]);
   const [listUpdated, setListUpdated] = useState(false);
+  const fileInputRef = useRef(null);
 
   useEffect(() => {
     fetch("http://localhost:5000/api/users/seeImage")
@@ -49,36 +51,56 @@ const Pictures = () => {
     setFile(null);
   };
 
+  const handleCancel = () => {
+    if (!file) {
+      alert("You must upload file");
+      return;
+    }
+    // Limpiar el archivo seleccionado
+    if (fileInputRef.current) {
+      fileInputRef.current.value = ""; // Limpiar el valor del input file
+    }
+    setFile(null);
+  };
+
   return (
     <div>
       <Navbar />
       <h3 className="text-center">
         Comparte tus buenos momentos compartiendo buenas fotografías
       </h3>
-      <div className="container mb-2">
+      <div className="m-auto w-75">
         <div className="card p-3">
-          <div className="row">
-            <div className="col-9">
+          <div className="row align-items-center">
+            <div className="col-12 col-md-9 mb-2 mb-md-0">
               <input
                 id="fileInput"
                 onChange={selectedHandlerTwo}
                 className="form-control"
                 type="file"
+                ref={fileInputRef}
               />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-md-3 d-flex flex-column">
               <button
-                className="btn btn-primary col-12"
+                className="btn btn-primary me-0 me-md-2 mb-2"
                 type="button"
                 onClick={sendHandler}
               >
                 Guardar
               </button>
+              <button
+                className="btn btn-primary text-light"
+                type="button"
+                onClick={handleCancel}
+              >
+                Calcelar
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="container w-100 d-flex flex-wrap">
+      <div className="d-flex justify-content-center align-items flex-wrap">
         {imageList.map((image) => (
           <div key={image} className="card m-2">
             <img
