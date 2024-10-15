@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { hotels } from "../data/hotels.json";
 import "./Room.css";
 import Pago from "./Pago";
+import axios from "axios";
 
 const Room = () => {
   const { id, id_room } = useParams();
@@ -13,6 +14,13 @@ const Room = () => {
   const hotel = hotels.find((hotel) => hotel.hotel_id === parseInt(id));
   const room = hotel.rooms.find((room) => room.room_id === parseInt(id_room));
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // estados para la reserva 
+  const userId = localStorage.getItem("userId");
+
+  const [cantHuespedes, setCantHuespedes] = useState(0);
+  const [fechaLlegada, setFechaLlegada] = useState('');
+  const [fechaSalida, setFechaSalida] = useState('');
 
   const renderStars = (calificacion) => {
     const estrellas = [];
@@ -36,11 +44,75 @@ const Room = () => {
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
+    handleAddReservation();
   };
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
+
+  // const handleAddReservation = () => {
+  //   let id_hotel = hotel.hotel_id;
+
+  //   if(id_hotel && id_room && cantHuespedes && fechaLlegada && fechaSalida && userId) {
+      
+  //     axios
+  //       .post(`http://localhost:5000/api/reserva/hotel/${id_hotel}/room/${id_room}`, {
+  //         num_hotel: id_hotel,
+  //         num_habitacion: id_room,
+  //         cant_huespedes: cantHuespedes,
+  //         fecha_llegada: fechaLlegada,
+  //         fecha_salida: fechaSalida, 
+  //         id_usuario: userId
+  //       })
+  //       .then((res) => {
+  //         console.log(res.data);
+
+  //       })
+  //       .catch((error) => {
+  //         console.error("Error al insertar reserva:", error);
+  //         alert("Hubo un error al insertar la reserva");
+  //       });
+  //   } else {
+  //     alert("Algunos datos no son correctos para insertar la reserva");
+  //   }
+
+  // }
+  const handleAddReservation = () => {
+    let id_hotel = hotel.hotel_id;
+  
+    if (id_hotel && id_room && cantHuespedes && fechaLlegada && fechaSalida && userId) {
+      axios
+        .post(`http://localhost:5000/api/reserva/hotel/${id_hotel}/room/${id_room}`, {
+          num_hotel: id_hotel,
+          num_habitacion: id_room,
+          cant_huespedes: cantHuespedes,
+          fecha_llegada: fechaLlegada,
+          fecha_salida: fechaSalida,
+          id_usuario: userId
+        })
+        .then((res) => {
+          console.log(res.data);
+          // Redirigir a la página de confirmación de reserva
+          navigate('/confirmacion-reserva', {
+            state: {
+              hotel,
+              room,
+              cantHuespedes,
+              fechaLlegada,
+              fechaSalida
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Error al insertar reserva:", error);
+          alert("Hubo un error al insertar la reserva");
+        });
+    } else {
+      alert("Algunos datos no son correctos para insertar la reserva");
+    }
+  };
+  
 
   return (
     <>
@@ -77,17 +149,31 @@ const Room = () => {
             <form>
               <div className="form-group mt-3">
                 <label>Fecha de Llegada</label>
-                <input type="date" className="form-control" required />
+                <input 
+                  type="date" 
+                  className="form-control" 
+                  value={fechaLlegada}
+                  onChange={(e) => setFechaLlegada(e.target.value)}
+                  required
+                />
               </div>
               <div className="form-group mt-3">
                 <label>Fecha de Salida</label>
-                <input type="date" className="form-control" required />
+                <input 
+                  type="date" 
+                  className="form-control" 
+                  value={fechaSalida}
+                  onChange={(e) => setFechaSalida(e.target.value)}
+                  required
+                />
               </div>
               <div className="form-group mt-3">
                 <label>Número de Huéspedes</label>
                 <input
                   type="number"
                   className="form-control"
+                  value={cantHuespedes}
+                  onChange={(e) => setCantHuespedes(e.target.value)}
                   min="1"
                   max={room.room_capacity}
                   required
@@ -96,7 +182,7 @@ const Room = () => {
               <button
                 type="button"
                 className="btn btn-custom-room btn-block mt-3 font-weight-bold"
-                onClick={handleOpenModal}
+                onClick={handleAddReservation}
               >
                 Reservar
               </button>
