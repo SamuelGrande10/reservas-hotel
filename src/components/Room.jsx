@@ -105,6 +105,11 @@ const Room = () => {
         )
         .then((res) => {
           console.log(res.data);
+
+          // Obtener el id de la reserva desde la respuesta
+          const newReservationId = res.data.id;
+
+          console.log(newReservationId);
           // Redirigir a la página de confirmación de reserva
           navigate("/confirmacion-reserva", {
             state: {
@@ -113,6 +118,8 @@ const Room = () => {
               cantHuespedes,
               fechaLlegada,
               fechaSalida,
+              room_price,
+              newReservationId, // Pasamos el id de la reserva
             },
           });
         })
@@ -226,7 +233,7 @@ const Room = () => {
                 ></button>
               </div>
               <div className="modal-body">
-                <Pago room_price={room_price} />
+                <Pago />
               </div>
             </div>
           </div>
